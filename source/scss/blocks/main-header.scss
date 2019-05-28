@@ -1,0 +1,10 @@
+.main-header {
+	width: 345px;
+}
+
+// media 
+@media screen and (max-width: 1024px) {
+	.main-header {
+		width: 100%;
+	}
+}

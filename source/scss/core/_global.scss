@@ -1,0 +1,10 @@
+body {
+	min-width: $min-width;
+	min-height: $min-height;
+
+	background-color: $bg-color;
+
+	color: $font-color__default;
+
+	@include font-default;
+}

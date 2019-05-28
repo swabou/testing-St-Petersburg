@@ -1,0 +1,15 @@
+.submenu {
+	@include list-zero;
+
+	display: none;
+}
+
+.submenu__link {
+	@include menu-list__link;
+
+	color: $font-color__default;
+
+	text-decoration: none;
+
+	padding-left: 15px;
+}

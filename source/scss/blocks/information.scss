@@ -1,0 +1,15 @@
+.information__position {
+	@include information__position;
+
+	color: $font-color__worker;
+
+	margin: 0;
+}
+
+.information__name {
+	@include information__name;
+
+	color: $font-color__worker;
+
+	margin: 0;
+}

@@ -1,0 +1,54 @@
+@mixin font-default {
+    font-family: $default-font;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+@mixin menu-list__link {
+	font-family: $default-font;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+@mixin worker-content__text {
+	font-family: $default-font;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+@mixin information__position {
+	font-family: $default-font;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+
+	text-transform: uppercase;
+}
+
+@mixin information__name {
+	font-family: $default-font;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 45px;
+
+	text-transform: uppercase;
+}
+
+@mixin list-zero {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+

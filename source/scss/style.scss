@@ -1,0 +1,22 @@
+// Normalize
+@import "libs/normalize/_normalize.scss";
+
+
+
+// Core
+@import "core/_fonts.scss";
+@import "core/_variables.scss";
+@import "core/_mixins.scss";
+@import "core/_global.scss";
+
+// Index
+@import "blocks/wrap-content.scss";
+@import "blocks/worker-content.scss";
+@import "blocks/main-header.scss";
+@import "blocks/main-content.scss";
+@import "blocks/list-worker.scss";
+@import "blocks/information.scss";
+@import "blocks/hidden-box.scss";
+@import "blocks/menu-list.scss";
+@import "blocks/submenu.scss";
+@import "blocks/dotted.scss";

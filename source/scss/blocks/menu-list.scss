@@ -1,0 +1,31 @@
+.menu-list {
+    @include list-zero;
+
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.menu-list__link {
+    @include menu-list__link;
+
+    color: $font-color__default;
+
+    text-decoration: none;
+}
+
+.menu-list__link:hover {
+    color: $hover-link;
+
+    padding-left: 5px;
+
+    transition: all 0.3s ease;
+}
+
+// media
+@media screen and (max-width: 1024px) {
+    .menu-list {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+}

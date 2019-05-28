@@ -1,0 +1,14 @@
+.worker-content__text {
+	max-width: 715px;
+
+	@include worker-content__text;
+
+	margin: 0;
+}
+
+// media
+@media screen and (max-width: 1024px) {
+	.worker-content__img {
+		max-width: 100%;
+	}
+}

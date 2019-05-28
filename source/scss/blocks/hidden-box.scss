@@ -1,0 +1,18 @@
+.hidden-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    position: relative;
+
+    padding-top: 15px;
+    padding-bottom: 115px;
+}
+
+// media 
+@media screen and (max-width: 1024px) {
+	.hidden-box {
+		flex-direction: column;
+	}
+}
